@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "INEERO POS Documentation",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#2664eb",
+    "light": "#2664eb",
+    "dark": "#3b6c72"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -18,18 +18,48 @@
             "pages": [
               "index",
               "quickstart",
-              "development"
+              "download-installation"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Products & Inventory",
             "pages": [
               "essentials/settings",
               "essentials/navigation"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Sales / POS Terminal",
+            "pages": [
+              "essentials/settings",
+              "essentials/navigation"
+            ]
+          },
+          {
+            "group": "Customers & Employees",
+            "pages": [
+              "essentials/settings",
+              "essentials/navigation"
+            ]
+          },
+          {
+            "group": "Reports & Analytics",
+            "pages": [
+              "essentials/settings",
+              "essentials/navigation"
+            ]
+          },
+          {
+            "group": "Settings",
+            "pages": [
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/reusable-snippets"
+            ]
+          },
+          {
+            "group": "FAQ & Support",
             "pages": [
               "essentials/markdown",
               "essentials/code",
@@ -97,7 +127,7 @@
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://pos.ineero.com"
     }
   },
   "contextual": {
@@ -115,7 +145,7 @@
   "footer": {
     "socials": {
       "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
+      "github": "https://github.com/TheekshanaCN/ineero-docs",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
   }
