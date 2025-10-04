@@ -11,89 +11,47 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "INEERO POS Guide",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Welcome",
+            "pages": ["index", "overview", "features"]
+          },
+          {
+            "group": "Start Here",
+            "pages": ["quickstart", "download-installation"]
+          },
+          {
+            "group": "What You Can Do",
             "pages": [
-              "index",
-              "quickstart",
-              "download-installation"
+              "features/dashboard",
+              "features/products",
+              "features/inventory",
+              "features/suppliers",
+              "features/sales-pos",
+              "features/employees",
+              "features/reports"
             ]
           },
           {
-            "group": "Products & Inventory",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Sales / POS Terminal",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Customers & Employees",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Reports & Analytics",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
+            "group": "Your Account",
+            "pages": ["accounts/user-registration", "accounts/roles-permissions"]
           },
           {
             "group": "Settings",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
+            "pages": ["settings/payment-settings", "settings/taxes-discounts", "settings/customization"]
           },
           {
-            "group": "FAQ & Support",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
+            "group": "Backup & Safety",
+            "pages": ["backup-data", "restore-data"]
           },
           {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
+            "group": "Tips & Tricks",
+            "pages": ["quick-tips"]
           },
           {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
+            "group": "Extra Info",
+            "pages": ["useful-links", "change-log"]
           }
         ]
       }
@@ -132,15 +90,15 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {

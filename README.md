@@ -1,43 +1,61 @@
-# Mintlify Starter Kit
+# 🧾 INEERO POS - Documentation
 
-Use the starter kit to get your docs deployed and ready to customize.
+Welcome to the official documentation for **INEERO POS** — a modern Point of Sale system designed to make managing your shop, sales, and staff **fast, simple, and powerful**.  
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
+This documentation will guide you through everything from installation to daily use.
 
-- Guide pages
-- Navigation
-- Customizations
-- API reference pages
-- Use of popular components
+---
 
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
+## 📚 What’s Inside
 
-## Development
+- 🧭 **Overview** – Quick intro to INEERO POS and what it does  
+- ⚙️ **Download & Installation** – How to install the app on Windows, Mac, or Android  
+- 🚀 **Getting Started** – First steps after installation  
+- 🛍️ **Products & Inventory** – Add, manage, and organize your products  
+- 💳 **Sales & Billing** – Use the POS terminal and complete transactions  
+- 👥 **Employees & Roles** – Manage users, permissions, and access levels  
+- 📊 **Reports & Analytics** – Track sales, revenue, and performance  
+- ❓ **FAQ & Support** – Common questions and help
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview your documentation changes locally. To install, use the following command:
+---
 
-```
-npm i -g mint
-```
+## 🖥️ About INEERO POS
 
-Run the following command at the root of your documentation, where your `docs.json` is located:
+**INEERO POS** is a cross-platform Point of Sale application designed for retail stores, restaurants, and small businesses.  
+It helps you manage your **products, sales, staff, inventory, and reports** all in one place — with a clean and simple interface.
 
-```
-mint dev
-```
+---
 
-View your local preview at `http://localhost:3000`.
+## 📦 Installation
 
-## Publishing changes
+Check the [Download & Installation](./docs/download-installation.mdx) page for step-by-step instructions to set up the POS on your device.
 
-Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.
+---
 
-## Need help?
+## 🤝 Contributing
 
-### Troubleshooting
+We welcome contributions to improve the documentation!  
+If you want to fix typos, improve guides, or add new pages:
 
-- If your dev environment isn't running: Run `mint update` to ensure you have the most recent version of the CLI.
-- If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
+1. 🍴 Fork the repo  
+2. 🛠️ Create a new branch  
+3. ✍️ Make your changes  
+4. 🔁 Open a Pull Request
 
-### Resources
-- [Mintlify documentation](https://mintlify.com/docs)
+---
+
+## 📬 Support
+
+- 📖 Read our [FAQ](./docs/extra-info/faq.mdx)  
+- 💬 Contact support directly from the INEERO POS app  
+- 🐛 Found a bug? [Open an issue](../../issues)
+
+---
+
+## 🪪 License
+
+This documentation is open-sourced under the [MIT License](./LICENSE).
+
+---
+
+💡 **Pro tip:** Bookmark this documentation or star the repo ⭐ to get quick access whenever you need help with INEERO POS.
